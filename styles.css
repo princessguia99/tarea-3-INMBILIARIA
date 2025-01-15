@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-image: url(https://i.imgur.com/iRUTTRe.jpeg); 
+    background-size: cover;
+    background-position: center;
+    color: black; 
+    text-align: center;
+    padding: 20px;
+}
+.main-container {
+    width: 100%; 
+    overflow: hidden; 
+}
+.sidebar {
+    float: left;
+    background-color: blue; 
+    color: white; 
+    width: 20%; 
+    padding: 20px;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li {
+    margin-bottom: 10px; 
+}
+.sidebar a {
+    text-decoration: none;
+    color: white; 
+    display: block; 
+    padding: 10px; 
+    background-color: blue; 
+    text-align: center;
+    border: 1px solid white; 
+    transition: background-color 0.3s; 
+}
+.sidebar a:hover {
+    background-color: black; 
+    color: white;
+}
+.content {
+    float: left;
+    width: 80%; 
+    background-color: black; 
+    color: white; 
+    padding: 20px;
+}
